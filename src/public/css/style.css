@@ -20,6 +20,12 @@ body {
   font-size: 1.6rem;
 }
 
+.container {
+  width: 112rem;
+  margin: 0 auto;
+}
+
+/* Banner */
 .bg-image {
   background-image: url("../img/Scene.png");
   height: 118.5rem;
@@ -68,10 +74,7 @@ body {
   margin-left: 2.4rem;
 }
 
-.container {
-  width: 112rem;
-  margin: 0 auto;
-}
+/* Menu */
 .navbar {
   margin-top: 4rem;
   position: relative;
@@ -137,4 +140,42 @@ body {
 
 .btn-header:hover {
   background: linear-gradient(rgb(238, 77, 71) 0%, rgb(64, 43, 43) 50%);
+}
+
+/* About Us */
+#about-us {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10.4rem 0;
+}
+
+.about-info h4 {
+  color: #ee4d47;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 4rem;
+  letter-spacing: 0.16rem;
+  margin-top: 7.4rem;
+  padding-bottom: 4rem;
+}
+
+.about-info p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 4rem;
+  padding-bottom: 7rem;
+  padding-right: 10.4rem;
+}
+
+.about-info span {
+  display: inline-block;
+  box-sizing: content-box;
+  padding: 3rem 5.5rem;
+  background-color: #fcddd4;
+  border-left: 1rem solid #ee4d47;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 3.6rem;
+  color: #402b2b;
 }
