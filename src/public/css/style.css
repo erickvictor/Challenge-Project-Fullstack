@@ -38,6 +38,7 @@ body {
 .bg-image h3 {
   width: 78rem;
   font-family: 'DM Serif Display', serif;
+  font-weight: 400;
   font-size: 10rem;
   line-height: 100%;
   color: #fff;
