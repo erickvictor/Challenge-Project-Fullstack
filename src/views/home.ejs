@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <%- include('./partials/head') %> 
-</head>
-<body>
-  <header>
-    <%- include('./partials/header') %> 
-  </header>
-  <main>
-    <%- include('./partials/about') %>
-    <%- include('./partials/howto') %>
-    <%- include('./partials/faq') %>
-  </main>
-</body>
+  <head>
+    <%- include('./partials/head') %>
+  </head>
+  <body>
+    <header><%- include('./partials/header') %></header>
+    <main>
+      <%- include('./partials/about') %> <%- include('./partials/howto') %> <%-
+      include('./partials/faq') %> <%- include('./partials/clients') %>
+    </main>
+    <script>
+      new Glider(document.querySelector(".glider"), {
+        slidesToScroll: 1,
+        slidesToShow: 2.1,
+        draggable: true,
+        arrows: {
+          prev: ".glider-prev",
+          next: ".glider-next",
+        },
+      });
+    </script>
+  </body>
 </html>

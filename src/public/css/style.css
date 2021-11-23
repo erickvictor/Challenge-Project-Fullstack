@@ -18,6 +18,7 @@ html {
 body {
   font-family: "Rubik", sans-serif;
   font-size: 1.6rem;
+  background: #FEF8F5;
 }
 
 .container {
@@ -269,6 +270,7 @@ body {
 input[type="checkbox"] {
   display: none;
 }
+
 .wrap-collabsible {
   margin: 1rem 0;
 }
@@ -341,4 +343,85 @@ input[type="checkbox"] {
   content: "\02795";
   float: right;
   padding-right: 3.5rem;
+}
+
+/* Clients */
+#clients {
+  padding: 10rem 0;
+}
+
+.clients-header {
+  display: flex;
+}
+
+.clients-info {
+  width: 38rem;
+}
+
+.clients-info h4 {
+  color: #ee4d47;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 4rem;
+  letter-spacing: 0.16rem;
+  text-transform: uppercase;
+  padding-bottom: 4rem;
+}
+
+.clients-info p {
+  color: #402b2b;
+  font-family: "DM Serif Display", serif;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 6.72rem;
+}
+
+.depositions {
+  width: 90rem;
+  position: absolute;
+  left: 39%;
+  padding-top: 6rem;
+}
+
+.glider {
+  overflow: hidden;
+}
+
+#g-next {
+  right: 5.5rem;
+  left: auto;
+}
+
+#g-prev {
+  left: auto;
+  right: 100px;
+}
+
+#g-next, #g-prev {
+  color: #ee4d47;
+  top: -1rem;
+}
+
+.card {
+  width: 42rem;
+  background: #fff;
+  border-radius: 1rem;
+  margin: 3rem 1rem;
+}
+
+.card p {
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  line-height: 3rem;
+  padding: 6rem 5.2rem 6rem 4.8rem;
+}
+
+.card-profile {
+  display: flex;
+  align-items: center;
+  padding: 0 0 4rem 4.8rem;
+}
+
+.card-profile span {
+  margin-left: 2rem;
 }
