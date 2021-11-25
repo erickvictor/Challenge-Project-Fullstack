@@ -6,9 +6,15 @@
   <body>
     <header><%- include('./partials/header') %></header>
     <main>
-      <%- include('./partials/about') %> <%- include('./partials/howto') %> <%-
-      include('./partials/faq') %> <%- include('./partials/clients') %>
+      <%- include('./partials/about') %> 
+      <%- include('./partials/howto') %> 
+      <%- include('./partials/faq') %> 
+      <%- include('./partials/clients') %>
     </main>
+    <footer>
+      <%- include('./partials/footer') %> 
+    </footer>
+
     <script>
       new Glider(document.querySelector(".glider"), {
         slidesToScroll: 1,
