@@ -13,10 +13,10 @@ const budgetController = {
         updateAt: new Date().toISOString(),
       });
       console.log(result);
-      return res.redirect("/");
+      return res.redirect("/#contact");
     } catch (error) {
       console.log("error:" + error);
-      return res.redirect("/");
+      return res.redirect("/#contact");
     }
   },
 };

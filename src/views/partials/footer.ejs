@@ -15,18 +15,19 @@
       </div>
 
       <div class="footer-form">
-        <form>
+        <form action="/save" method="POST">
           <label for="name">Name</label>
-          <input id="name" type="text" placeholder="Hendrik Larsson" />
+          <input id="name" name="name" type="text" placeholder="Hendrik Larsson" />
           <label for="email">Email address</label>
-          <input id="email" type="email" placeholder="larsson@mail.com" />
+          <input id="email" name="email" type="email" placeholder="larsson@mail.com" />
           <label for="message">Message</label>
           <textarea
             id="message"
+            name="message"
             rows="2"
             placeholder="What items do you want to transport?"
           ></textarea>
-          <button class="btn-banner">
+          <button type="submit" class="btn-banner">
             Get Started
             <svg
               fill="currentColor"
