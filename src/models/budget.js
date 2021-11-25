@@ -17,7 +17,7 @@ module.exports = (conection, DataTypes) => {
       message: {
         type: DataTypes.STRING(500),
       },
-      create_at: {
+      createAt: {
         allowNull: false,
         type: DataTypes.DATE,
       },
@@ -28,7 +28,6 @@ module.exports = (conection, DataTypes) => {
     },
     {
       tableName: "Budgets",
-      timestamps: false,
     }
   );
 
