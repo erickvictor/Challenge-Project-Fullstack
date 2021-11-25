@@ -9,11 +9,14 @@ const budgetController = {
         name,
         email,
         message,
+        createAt: new Date().toISOString(),
+        updateAt: new Date().toISOString(),
       });
+      console.log(result);
       return res.redirect("/");
     } catch (error) {
-      return res.redirect("/");
       console.log("error:" + error);
+      return res.redirect("/");
     }
   },
 };

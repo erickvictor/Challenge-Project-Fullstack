@@ -17,7 +17,7 @@ module.exports = (conection, DataTypes) => {
       message: {
         type: DataTypes.STRING(500),
       },
-      createAt: {
+      createdAt: {
         allowNull: false,
         type: DataTypes.DATE,
       },
